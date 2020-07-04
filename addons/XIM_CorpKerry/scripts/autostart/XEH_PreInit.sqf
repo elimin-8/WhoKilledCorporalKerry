@@ -13,6 +13,7 @@ if (isMultiplayer) then // if client is in multiplayer
             nil, // disables synchronising the variable across clients, as it is not needed
             {} // executes nothing when the setting is changed, as it is not necessary
         ] call cba_settings_fnc_init;
+        
         [
             "XIM_CKCalmDelay", // the name of the variable which the output from the slider is assigned to
             "SLIDER", // interactive slider setting type
