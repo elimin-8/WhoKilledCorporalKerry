@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class XIMCore
+    class XIMCorpKerry
     {
         name = "Who Killed Corporal Kerry?";
         author = "x00010";
