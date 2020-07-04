@@ -4,27 +4,29 @@ XIM_aCalmSoundClassnames = "'calm' in getArray (_x >> 'moods') " configClasses (
 XIM_aAllSoundClassnames = XIM_aCombatSoundClassnames + XIM_aCalmSoundClassnames;
 XIM_aAllSoundClassnames = XIM_aAllSoundClassnames call BIS_fnc_arrayShuffle;
 
-private _bXIMLoaded = false;
-
 // ====================================== FUNCTIONS ======================================
 
-XIM_CKfncXIMPlaySound = // run when XIM is loaded
+XIM_CKfncPlaySound = // plays a random sound on the player's entire group
 {
-	params["_oPlayer", "_sMusicType"];
-	private _cSound = [_sMusicType] call XIM_CKfncTrackSelect;
-	[_cSound] remoteExecCall ["playSound", group _oPlayer, false];
-};
+	params["_oPlayer", ["_sMusicType", objNull]];
 
-XIM_CKfncPlaySound = // run when XIM is not loaded
-{
-	params["_oPlayer"];
-	private _cSound = selectRandom XIM_aAllSoundClassnames;
-	[_cSound] remoteExecCall ["playSound", group _oPlayer, false];
+	if (isNull _sMusicType) then // if XIM is not loaded
+	{
+		private _cSound = selectRandom XIM_aAllSoundClassnames;
+		[_cSound] remoteExecCall ["playSound", group _oPlayer, false];
+	}
+
+	else // if XIM is loaded
+	{
+		private _cSound = [_sMusicType] call XIM_CKfncTrackSelect;
+		[_cSound] remoteExecCall ["playSound", group _oPlayer, false];
+	};
 };
 
 XIM_CKfncTrackSelect = 
 {
 	params ["_musictype"];
+
 	private _trackclassname = "";
 
 	switch (_musictype) do { 
@@ -34,38 +36,40 @@ XIM_CKfncTrackSelect =
 	_trackclassname; //Return classname
 };
 
-if (isClass (configFile >> "CfgPatches" >> "XIMCore")) then // if XIM is loaded
-{
-	_bXIMLoaded = true; // set _bXIMLoaded to false
-}
-
-else // if XIM is not loaded
-{
-	_bXIMLoaded = false; // set _bXIMLoaded to false
-};
-
-[_bXIMLoaded] spawn // run the following code in the scheduler, with _bXIMLoaded as a parameter
+[] spawn // run the following code in the scheduler, with _bXIMLoaded as a parameter
 {
 	params["_bXIMLoaded"]; // assign the value of parameter in position zero to the variable _bXIMLoaded
+
+	private _bXIMLoaded = false;
+
+	if (isClass (configFile >> "CfgPatches" >> "XIMCore")) then // if XIM is loaded
+	{
+		_bXIMLoaded = true; // set _bXIMLoaded to true
+	}
+
+	else // if XIM is not loaded
+	{
+		_bXIMLoaded = false; // set _bXIMLoaded to false
+	};
 	waitUntil // wait until the following returns true
 	{
 		if (_bXIMLoaded) then // if XIM is loaded
 		{
+			private _oPlayer = selectRandom (allPlayers - entities "HeadlessClient_F"); // select a random player
+			if (_oPlayer getVariable ["XIM_bCombat", false]) then
 			{
-				if (_x getVariable ["XIM_bCombat", false]) then
-				{
-					[_x, "intense"] call XIM_CKfncXIMPlaySound;
-				}
-				else
-				{
-					[_x, "calm"] call XIM_CKfncXIMPlaySound;
-				};
-			} forEach (allPlayers - entities "HeadlessClient_F"); // for every player, except headless clients
+				[_oPlayer, "intense"] call XIM_CKfncPlaySound;
+			}
+			else
+			{
+				[_oPlayer, "calm"] call XIM_CKfncPlaySound;
+			};
 		}
 		
 		else // if XIM is not loaded
 		{
-
+			private _oPlayer = selectRandom (allPlayers - entities "HeadlessClient_F"); // select a random player
+			[_oPlayer] call XIM_CKfncPlaySound;
 		};
 		sleep ((random 1) + 5); // sleep for a random number of time between 5 seconds and 6 seconds
 		false; // run infinitely
