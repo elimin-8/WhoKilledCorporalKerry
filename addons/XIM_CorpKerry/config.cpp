@@ -533,16 +533,6 @@ class CfgSounds
         sound[] = { "\XIM_CorpKerry\sounds\UgandanBruceLee.ogg", db + 0, 1.0 };
         // Ugandan bruce lee we call him bruce u
     };
-
-    class Hello2
-    {
-        moods[] = 
-        {
-            "intense",
-        };
-        sound[] = { "\XIM_CorpKerry\sounds\Hello2.ogg", db + 0, 1.0 };
-        // Hello
-    };
     
     class UgandanCommando
     {
