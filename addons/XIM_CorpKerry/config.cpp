@@ -323,7 +323,6 @@ class CfgSounds
         moods[] = 
         {
             "intense",
-            "calm"
         };
         sound[] = { "\XIM_CorpKerry\sounds\MummyImScared.ogg", db + 0, 1.0 };
         // Mummy I'm scared
@@ -715,6 +714,7 @@ class CfgSounds
         moods[] = 
         {
             "intense",
+            "calm"
         };
         sound[] = { "\XIM_CorpKerry\sounds\Transgenda.ogg", db + 0, 1.0 };
         // You are a transgenda
