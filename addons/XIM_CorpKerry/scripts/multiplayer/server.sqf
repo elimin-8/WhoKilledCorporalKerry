@@ -74,12 +74,12 @@ XIM_CKfncTrackSelect =
 			if (_oPlayer getVariable ["XIM_bCombat", false]) then
 			{
 				[_oPlayer, "intense"] call XIM_CKfncPlaySound;
-				sleep ((random 30) + 5); // sleep for a random number of time between 5 seconds and 35 seconds
+				sleep ((random XIM_CombatDelay) + 5); // sleep for a random number of time between 5 seconds and 35 seconds
 			}
 			else
 			{
 				[_oPlayer, "calm"] call XIM_CKfncPlaySound;
-				sleep ((random 60) + 5); // sleep for a random number of time between 5 seconds and 65 seconds
+				sleep ((random XIM_CKCalmDelay) + 5); // sleep for a random number of time between 5 seconds and 65 seconds
 			};
 		}
 		
