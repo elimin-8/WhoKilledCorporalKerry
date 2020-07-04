@@ -24,17 +24,8 @@ class Extended_PreInit_EventHandlers
     };
 };
 
-class CfgMusic
+class CfgSounds
 {
-    class
-    {
-        moods[] = 
-        {
-
-        };
-        sound[] = { "", db + 0, 1.0 };
-    };
-
     class ActionInUganda
     {
         moods[] = 
