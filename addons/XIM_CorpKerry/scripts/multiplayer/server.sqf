@@ -8,9 +8,9 @@ XIM_aAllSoundClassnames = XIM_aAllSoundClassnames call BIS_fnc_arrayShuffle;
 
 XIM_CKfncPlaySound = // plays a random sound on the player's entire group
 {
-	params["_oPlayer", ["_sMusicType", objNull]];
+	params["_oPlayer", ["_sMusicType", ""]];
 
-	if (isNull _sMusicType) then // if XIM is not loaded
+	if (_sMusicType == "") then // if XIM is not loaded
 	{
 		private _cSound = selectRandom XIM_aAllSoundClassnames;
 		[_cSound] remoteExecCall ["playSound", group _oPlayer, false];
