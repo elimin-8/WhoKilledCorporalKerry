@@ -11,13 +11,15 @@ private _bXIMLoaded = false;
 XIM_CKfncXIMPlaySound = // run when XIM is loaded
 {
 	params["_oPlayer", "_sMusicType"];
-	_cSound = [_sMusicType] call XIM_CKfncTrackSelect;
-	[_cSound] remoteExecCall ["playSound", group _oPlayer, false]
+	private _cSound = [_sMusicType] call XIM_CKfncTrackSelect;
+	[_cSound] remoteExecCall ["playSound", group _oPlayer, false];
 };
 
 XIM_CKfncPlaySound = // run when XIM is not loaded
 {
-
+	params["_oPlayer"];
+	private _cSound = selectRandom XIM_aAllSoundClassnames;
+	[_cSound] remoteExecCall ["playSound", group _oPlayer, false];
 };
 
 XIM_CKfncTrackSelect = 
