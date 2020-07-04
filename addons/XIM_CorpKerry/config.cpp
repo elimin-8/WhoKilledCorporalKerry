@@ -18,7 +18,7 @@ class CfgPatches
 
 class Extended_PreInit_EventHandlers 
 {
-    class XIMCoreStart // preinit event handler
+    class XIMCKStart // preinit event handler
     {
         init = "call compile preprocessFileLineNumbers '\XIM_CorpKerry\scripts\autostart\XEH_PreInit.sqf'";
     };
