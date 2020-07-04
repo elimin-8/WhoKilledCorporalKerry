@@ -53,16 +53,33 @@ XIM_CKfncTrackSelect =
 	};
 	waitUntil // wait until the following returns true
 	{
+		private _oPlayer = objNull;
+
 		if (_bXIMLoaded) then // if XIM is loaded
 		{
-			private _oPlayer = selectRandom (allPlayers - entities "HeadlessClient_F"); // select a random player
+			{
+				{
+					if (_x getVariable ["XIM_bCombatMaster", false]) then // if the iterated unit is a combat master
+					{
+						_bCombatMasterExists = true; // set _bCombatMasterExists to true
+					};
+				} forEach (units (group _x)); // for every player in the player's group
+				if ((!(_bCombatMasterExists)) or (_x getVariable ["XIM_bCombatMaster", false])) then // if the combat master does not exist, or the currently selected player
+																										// is a combat master then
+				{
+					_oPlayer = _x; // assign the currently iterated player to _oPlayer
+				};
+			} forEach (allPlayers - entities "HeadlessClient_F"); // for every player, except headless clients
+
 			if (_oPlayer getVariable ["XIM_bCombat", false]) then
 			{
 				[_oPlayer, "intense"] call XIM_CKfncPlaySound;
+				sleep ((random 30) + 5); // sleep for a random number of time between 5 seconds and 35 seconds
 			}
 			else
 			{
 				[_oPlayer, "calm"] call XIM_CKfncPlaySound;
+				sleep ((random 60) + 5); // sleep for a random number of time between 5 seconds and 65 seconds
 			};
 		}
 		
@@ -71,7 +88,7 @@ XIM_CKfncTrackSelect =
 			private _oPlayer = selectRandom (allPlayers - entities "HeadlessClient_F"); // select a random player
 			[_oPlayer] call XIM_CKfncPlaySound;
 		};
-		sleep ((random 1) + 5); // sleep for a random number of time between 5 seconds and 6 seconds
+
 		false; // run infinitely
 	};
 };
