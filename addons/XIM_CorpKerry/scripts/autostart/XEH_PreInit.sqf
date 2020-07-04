@@ -58,9 +58,9 @@ if (isMultiplayer) then // if client is in multiplayer
 		execVM "\XIM_CorpKerry\scripts\multiplayer\server.sqf"; // executes server.sqf
 	};
 
+    /*
     if (hasInterface) then // if the client is not the host
 	{
-        /*
         [
             "XIM_bNowPlayingEnabled", // the name of the variable which the output from the slider is assigned to
             "CHECKBOX", // interactive slider setting type
@@ -70,9 +70,10 @@ if (isMultiplayer) then // if client is in multiplayer
             nil, // disables synchronising the variable across clients, as it is not needed
             {} // executes nothing when the setting is changed, as it is not necessary
         ] call cba_settings_fnc_init;
-        */
+        
 		execVM "\XIM_CorpKerry\scripts\multiplayer\client.sqf"; // executes client.sqf
 	};
+    */
 } 
 else // if client is in singleplayer
 {
