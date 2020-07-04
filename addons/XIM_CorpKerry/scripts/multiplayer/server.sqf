@@ -15,6 +15,11 @@ XIM_CKfncXIMPlaySound = // run when XIM is loaded
 	[_cSound] remoteExecCall ["playSound", group _oPlayer, false]
 };
 
+XIM_CKfncPlaySound = // run when XIM is not loaded
+{
+
+};
+
 XIM_CKfncTrackSelect = 
 {
 	params ["_musictype"];
@@ -25,11 +30,6 @@ XIM_CKfncTrackSelect =
 		case "calm" : { _trackclassname = selectRandom XIM_aCalmSoundClassnames; };  // select a random track from the aCalmMusicClassnames array
 	};
 	_trackclassname; //Return classname
-};
-
-XIM_CKfncPlaySound = // run when XIM is not loaded
-{
-
 };
 
 if (isClass (configFile >> "CfgPatches" >> "XIMCore")) then // if XIM is loaded
