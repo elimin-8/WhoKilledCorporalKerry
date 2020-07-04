@@ -246,7 +246,7 @@ class CfgSounds
         // he he he he
     };
 
-    class Hello2
+    class Laugh2
     {
         moods[] = 
         {
