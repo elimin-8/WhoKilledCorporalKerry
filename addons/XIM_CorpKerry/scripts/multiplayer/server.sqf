@@ -65,7 +65,7 @@ XIM_CKfncTrackSelect =
 					};
 				} forEach (units (group _x)); // for every player in the player's group
 				if ((!(_bCombatMasterExists)) or (_x getVariable ["XIM_bCombatMaster", false])) then // if the combat master does not exist, or the currently selected player
-																										// is a combat master then
+																									 // is a combat master then
 				{
 					_oPlayer = _x; // assign the currently iterated player to _oPlayer
 				};

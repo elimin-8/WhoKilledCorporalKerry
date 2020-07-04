@@ -81,5 +81,5 @@ else // if client is in singleplayer
         ] call cba_settings_fnc_init;
     };
 
-	//AexecVM "\XIM_CorpKerry\scripts\singleplayer\client.sqf"; // executes client.sqf
+	//execVM "\XIM_CorpKerry\scripts\singleplayer\client.sqf"; // executes client.sqf
 };
