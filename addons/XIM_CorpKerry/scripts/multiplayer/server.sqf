@@ -87,6 +87,7 @@ XIM_CKfncTrackSelect =
 		{
 			private _oPlayer = selectRandom (allPlayers - entities "HeadlessClient_F"); // select a random player
 			[_oPlayer] call XIM_CKfncPlaySound;
+			sleep ((random 50) + 5); // sleep for a random number of time between 5 seconds and 55 seconds
 		};
 
 		false; // run infinitely
