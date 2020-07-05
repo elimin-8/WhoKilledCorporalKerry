@@ -62,6 +62,8 @@ XIM_CK_fncTrackSelect =  // select a random track depending on the parameter in 
 		if (_bXIMLoaded) then // if XIM is loaded
 		{
 			{
+				private _bCombatMasterExists = false; // declares _bCombatMasterExists, with the default value of false
+
 				{
 					if (_x getVariable ["XIM_bCombatMaster", false]) then // if the iterated unit is a combat master
 					{
