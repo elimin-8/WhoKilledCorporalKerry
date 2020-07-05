@@ -34,7 +34,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\ActionInUganda.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\ActionInUganda.ogg", db + 0, 1.0 };
         titles[] = {};
         // This is how we do action in uganda
     };
@@ -46,7 +46,7 @@ class CfgSounds
         {
             "calm",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\ActionIsComing.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\ActionIsComing.ogg", db + 0, 1.0 };
         titles[] = {};
         // Action is coming
     };
@@ -58,7 +58,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\ActionPackedMovie.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\ActionPackedMovie.ogg", db + 0, 1.0 };
         titles[] = {};
         // Action packed movie
     };
@@ -71,7 +71,7 @@ class CfgSounds
             "calm",
             "intense"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\Bastard.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\Bastard.ogg", db + 0, 1.0 };
         titles[] = {};
         // Bastard
     };
@@ -84,7 +84,7 @@ class CfgSounds
             "calm",
             "intense"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\CaptainAlex.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\CaptainAlex.ogg", db + 0, 1.0 };
         titles[] = {};
         // Captain Alex
     };
@@ -96,7 +96,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\Combat.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\Combat.ogg", db + 0, 1.0 };
         titles[] = {};
         // Combat
     };
@@ -108,7 +108,7 @@ class CfgSounds
         {
             "calm",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\Commando1.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\Commando1.ogg", db + 0, 1.0 };
         titles[] = {};
         // Commando
     };
@@ -121,7 +121,7 @@ class CfgSounds
             "calm",
             "intense"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\Commando2.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\Commando2.ogg", db + 0, 1.0 };
         titles[] = {};
         // Commando
     };
@@ -134,7 +134,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\CommandoCommando.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\CommandoCommando.ogg", db + 0, 1.0 };
         titles[] = {};
         // Commando commando
     };
@@ -147,7 +147,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\Commandos.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\Commandos.ogg", db + 0, 1.0 };
         titles[] = {};
         // Commandos
     };
@@ -160,7 +160,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\DeadliestGang.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\DeadliestGang.ogg", db + 0, 1.0 };
         titles[] = {};
         // Tiger mafia the most deadliest gang in uganda
     };
@@ -172,7 +172,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\DeadlyCommandos.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\DeadlyCommandos.ogg", db + 0, 1.0 };
         titles[] = {};
         // Deadly commandos
     };
@@ -185,7 +185,7 @@ class CfgSounds
             "calm",
             "intense"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\Dinosaurs.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\Dinosaurs.ogg", db + 0, 1.0 };
         titles[] = {};
         // Dinosaurs
     };
@@ -197,7 +197,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\EveryoneKnowsKungFu.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\EveryoneKnowsKungFu.ogg", db + 0, 1.0 };
         titles[] = {};
         // Everybody in uganda knows kung fu
     };
@@ -209,7 +209,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\ExpectTheUnexpectable.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\ExpectTheUnexpectable.ogg", db + 0, 1.0 };
         titles[] = {};
         // Expect the unexpectable
     };
@@ -222,7 +222,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\GoForPanties.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\GoForPanties.ogg", db + 0, 1.0 };
         titles[] = {};
         // Go for panties
     };
@@ -234,7 +234,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\Hello1.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\Hello1.ogg", db + 0, 1.0 };
         titles[] = {};
         // Hello
     };
@@ -246,7 +246,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\Hello2.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\Hello2.ogg", db + 0, 1.0 };
         titles[] = {};
         // Hello
     };
@@ -258,7 +258,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\HellOfAFighter.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\HellOfAFighter.ogg", db + 0, 1.0 };
         titles[] = {};
         // One hell of a fighter warrior
     };
@@ -270,7 +270,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\HellOfAMovie.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\HellOfAMovie.ogg", db + 0, 1.0 };
         titles[] = {};
         // One hell of a movie
     };
@@ -283,7 +283,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\Laugh1.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\Laugh1.ogg", db + 0, 1.0 };
         titles[] = {};
         // he he he he
     };
@@ -296,7 +296,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\Laugh2.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\Laugh2.ogg", db + 0, 1.0 };
         titles[] = {};
         // he he he he he
     };
@@ -309,7 +309,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\Laugh3.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\Laugh3.ogg", db + 0, 1.0 };
         titles[] = {};
         // he he he he he
     };
@@ -321,7 +321,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\MammaMia.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\MammaMia.ogg", db + 0, 1.0 };
         titles[] = {};
         // Mamma mia
     };
@@ -333,7 +333,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\MilitaryIsHere.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\MilitaryIsHere.ogg", db + 0, 1.0 };
         titles[] = {};
         // The military is here
     };
@@ -345,7 +345,7 @@ class CfgSounds
         {
             "calm",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\Movie.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\Movie.ogg", db + 0, 1.0 };
         titles[] = {};
         // Movie
     };
@@ -357,7 +357,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\MovieMovieMovie.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\MovieMovieMovie.ogg", db + 0, 1.0 };
         titles[] = {};
         // Movie movie movie movie
     };
@@ -369,7 +369,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\MoviesOn.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\MoviesOn.ogg", db + 0, 1.0 };
         titles[] = {};
         // The movies on the movies on
     };
@@ -381,7 +381,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\MummyImScared.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\MummyImScared.ogg", db + 0, 1.0 };
         titles[] = {};
         // Mummy I'm scared
     };
@@ -393,7 +393,7 @@ class CfgSounds
         {
             "calm",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\NeverSeenAWoman.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\NeverSeenAWoman.ogg", db + 0, 1.0 };
         titles[] = {};
         // I've never seen a woman
     };
@@ -405,7 +405,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\PantherMeetsTiger.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\PantherMeetsTiger.ogg", db + 0, 1.0 };
         titles[] = {};
         // The panther meets the tiger
     };
@@ -417,7 +417,7 @@ class CfgSounds
         {
             "calm",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\PreferMen.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\PreferMen.ogg", db + 0, 1.0 };
         titles[] = {};
         // I prefer men
     };
@@ -429,7 +429,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\Production.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\Production.ogg", db + 0, 1.0 };
         titles[] = {};
         // Production in action
     };
@@ -441,7 +441,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\RapidAction.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\RapidAction.ogg", db + 0, 1.0 };
         // Rapid action
     };
 
@@ -452,7 +452,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\RapidGunFire.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\RapidGunFire.ogg", db + 0, 1.0 };
         titles[] = {};
         // Rapid gunfire
     };
@@ -464,7 +464,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\RealAction.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\RealAction.ogg", db + 0, 1.0 };
         titles[] = {};
         // Now it's time to see real action
     };
@@ -477,7 +477,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\SupaDeadalier.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\SupaDeadalier.ogg", db + 0, 1.0 };
         titles[] = {};
         // Super deadlier
     };
@@ -489,7 +489,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\SupaFighta.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\SupaFighta.ogg", db + 0, 1.0 };
         // Super fighter
     };
 
@@ -500,7 +500,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\SupaKicka.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\SupaKicka.ogg", db + 0, 1.0 };
         titles[] = {};
         // Super kicker
     };
@@ -512,7 +512,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\SupaMafia.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\SupaMafia.ogg", db + 0, 1.0 };
         titles[] = {};
         // Super mafia
     };
@@ -524,7 +524,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\SupaMafiaOnTheRun", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\SupaMafiaOnTheRun", db + 0, 1.0 };
         titles[] = {};
         // Super mafia is on the run
     };
@@ -536,7 +536,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\TheManIsKillingUs.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\TheManIsKillingUs.ogg", db + 0, 1.0 };
         titles[] = {};
         // Man the man is killing us man press the bomb over drop the bomb man
     };
@@ -548,7 +548,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\ThisIsSerious.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\ThisIsSerious.ogg", db + 0, 1.0 };
         titles[] = {};
         // This is serious
     };
@@ -561,7 +561,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\ThisIsUganda.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\ThisIsUganda.ogg", db + 0, 1.0 };
         titles[] = {};
         // This is uganda *slap*
     };
@@ -573,7 +573,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\TigerInTheCage.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\TigerInTheCage.ogg", db + 0, 1.0 };
         titles[] = {};
         // The tiger is in the cage
     };
@@ -586,7 +586,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\TigerMafia1.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\TigerMafia1.ogg", db + 0, 1.0 };
         titles[] = {};
         // Tiger mafia
     };
@@ -599,7 +599,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\TigerMafia2.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\TigerMafia2.ogg", db + 0, 1.0 };
         titles[] = {};
         // Tiger mafia
     };
@@ -611,7 +611,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\Uganda.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\Uganda.ogg", db + 0, 1.0 };
         titles[] = {};
         // Ugandaaaaaaaaaaaa
     };
@@ -624,7 +624,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\UgandanBruceLee.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\UgandanBruceLee.ogg", db + 0, 1.0 };
         titles[] = {};
         // Ugandan bruce lee we call him bruce u
     };
@@ -637,7 +637,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\UgandanCommando.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\UgandanCommando.ogg", db + 0, 1.0 };
         titles[] = {};
         // The ugandan commando
     };
@@ -649,7 +649,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\UsingAGun.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\UsingAGun.ogg", db + 0, 1.0 };
         titles[] = {};
         // He knows the way of using a gun
     };
@@ -661,7 +661,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\VJEmmieOnTheMic.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\VJEmmieOnTheMic.ogg", db + 0, 1.0 };
         titles[] = {};
         // VJ emmie on the microphone
     };
@@ -673,7 +673,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\WakandaForever.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\WakandaForever.ogg", db + 0, 1.0 };
         titles[] = {};
         // Wakanda forever aeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
     };
@@ -685,7 +685,7 @@ class CfgSounds
         {
             "calm",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\WalkSlow.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\WalkSlow.ogg", db + 0, 1.0 };
         titles[] = {};
         // They walk slow cuz they think slow
     };
@@ -697,7 +697,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\WannaGoHome.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\WannaGoHome.ogg", db + 0, 1.0 };
         titles[] = {};
         // I wanna go home
     };
@@ -709,7 +709,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\WarCry1.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\WarCry1.ogg", db + 0, 1.0 };
         titles[] = {};
         // que que que que que que que que
     };
@@ -721,7 +721,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\WarCry2.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\WarCry2.ogg", db + 0, 1.0 };
         titles[] = {};
         // wadadow wadadow wadadow *explosion*
     };
@@ -734,7 +734,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\WatchThis.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\WatchThis.ogg", db + 0, 1.0 };
         titles[] = {};
         // Watch a this
     };
@@ -747,7 +747,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\WelcomeToUganda.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\WelcomeToUganda.ogg", db + 0, 1.0 };
         titles[] = {};
         // Welcome to uganda
     };
@@ -759,7 +759,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\WhatsHappening.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\WhatsHappening.ogg", db + 0, 1.0 };
         titles[] = {};
         // What's happening
     };
@@ -771,7 +771,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\WhatTheFu.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\WhatTheFu.ogg", db + 0, 1.0 };
         titles[] = {};
         // What the fu-
     };
@@ -783,7 +783,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\WhatTheHeck.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\WhatTheHeck.ogg", db + 0, 1.0 };
         titles[] = {};
         // What the heck
     };
@@ -796,7 +796,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\WhosTheBitch.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\WhosTheBitch.ogg", db + 0, 1.0 };
         titles[] = {};
         // Who's the bitch
     };
@@ -808,7 +808,7 @@ class CfgSounds
         {
             "intense",
         };
-        sound[] = { "\XIM_CorpKerry\sounds\WifeGoat.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\WifeGoat.ogg", db + 0, 1.0 };
         titles[] = {};
         // Get off my wife! Wife? I thought that is a goat
     };
@@ -821,7 +821,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\WhyAreYouGay.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\WhyAreYouGay.ogg", db + 0, 1.0 };
         titles[] = {};
         // Why are you gay
     };
@@ -834,7 +834,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\YouAreGay.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\YouAreGay.ogg", db + 0, 1.0 };
         titles[] = {};
         // You are gay
     };
@@ -847,7 +847,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\Transgenda.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\Transgenda.ogg", db + 0, 1.0 };
         titles[] = {};
         // You are a transgenda
     };
@@ -860,7 +860,7 @@ class CfgSounds
             "intense",
             "calm"
         };
-        sound[] = { "\XIM_CorpKerry\sounds\WhyBeGay.ogg", db + 0, 1.0 };
+        sound[] = { "\XIM_CK\sounds\WhyBeGay.ogg", db + 0, 1.0 };
         titles[] = {};
         // Why should someone be gay
     };
