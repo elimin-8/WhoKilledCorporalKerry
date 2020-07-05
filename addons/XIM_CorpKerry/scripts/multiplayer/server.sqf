@@ -80,13 +80,13 @@ XIM_CK_fncTrackSelect =  // select a random track depending on the parameter in 
 			if (_oPlayer getVariable ["XIM_bCombat", false]) then // if the player is in combat
 			{
 				[_oPlayer, "intense"] call XIM_CK_fncPlaySound; // call XIM_CK_fncPlaySound with the arguments _oPlayer and "intense"
-				sleep ((random XIM_CK_iCombatDelay) + 5); // sleep for a random number of time between 5 seconds and 35 seconds
+				sleep ((random XIM_CK_iCombatDelay) + 5); // sleep for a random number of time between 5 seconds and whatever the user has specified (default 30 seconds)
 			}
 
 			else
 			{
 				[_oPlayer, "calm"] call XIM_CK_fncPlaySound; // call XIM_CK_fncPlaySound with the arguments _oPlayer and "calm"
-				sleep ((random XIM_CK_iCalmDelay) + 5); // sleep for a random number of time between 5 seconds and 65 seconds
+				sleep ((random XIM_CK_iCalmDelay) + 5); // sleep for a random number of time between 5 seconds and whatever the user has specified (default 65 seconds)
 			};
 		}
 		
@@ -94,7 +94,7 @@ XIM_CK_fncTrackSelect =  // select a random track depending on the parameter in 
 		{
 			private _oPlayer = selectRandom (allPlayers - entities "HeadlessClient_F"); // select a random player
 			[_oPlayer] call XIM_CK_fncPlaySound; // call XIM_CK_fncPlaySound with the argument _oPlayer
-			sleep ((random XIM_CK_iGeneralDelay) + 5); // sleep for a random number of time between 5 seconds and 55 seconds
+			sleep ((random XIM_CK_iGeneralDelay) + 5); // sleep for a random number of time between 5 seconds and whatever the user has specified (default 55 seconds)
 		};
 
 		false; // run infinitely
