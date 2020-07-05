@@ -40,7 +40,7 @@ if (isMultiplayer) then // if client is in multiplayer
             ] call cba_settings_fnc_init;
         };
 
-		execVM "\XIM_CorpKerry\scripts\multiplayer\server.sqf"; // executes server.sqf
+		execVM "\XIM_CK\scripts\multiplayer\server.sqf"; // executes server.sqf
 	};
 } 
 else // if client is in singleplayer
@@ -81,5 +81,5 @@ else // if client is in singleplayer
         ] call cba_settings_fnc_init;
     };
 
-	//execVM "\XIM_CorpKerry\scripts\singleplayer\client.sqf"; // executes client.sqf
+	//execVM "\XIM_CK\scripts\singleplayer\client.sqf"; // executes client.sqf
 };
