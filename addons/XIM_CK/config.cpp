@@ -442,6 +442,7 @@ class CfgSounds
             "intense",
         };
         sound[] = { "\XIM_CK\sounds\RapidAction.ogg", db + 0, 1.0 };
+        titles[] = {};
         // Rapid action
     };
 
