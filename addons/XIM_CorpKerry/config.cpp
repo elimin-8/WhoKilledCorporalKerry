@@ -20,7 +20,7 @@ class Extended_PreInit_EventHandlers
 {
     class XIMCKStart // preinit event handler
     {
-        init = "call compile preprocessFileLineNumbers '\XIM_CorpKerry\scripts\autostart\XEH_PreInit.sqf'";
+        init = "call compile preprocessFileLineNumbers '\XIM_CK\scripts\autostart\XEH_PreInit.sqf'";
     };
 };
 
