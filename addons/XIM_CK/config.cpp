@@ -491,6 +491,7 @@ class CfgSounds
             "intense",
         };
         sound[] = { "\XIM_CK\sounds\SupaFighta.ogg", db + 0, 1.0 };
+        titles[] = {};
         // Super fighter
     };
 
